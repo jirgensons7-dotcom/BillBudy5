@@ -1,15 +1,18 @@
 {
   "expo": {
-    "name": "BillBuddy 5",
-    "slug": "billbuddy-5",
+    "name": "BillBuddy",
+    "slug": "billbuddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "billbuddy",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.billbuddy.app",
       "versionCode": 1,
